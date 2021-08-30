@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "title": "star wars",
+  "author": "georgie lucas",
+  "url": "starwars.com",
+  "likes": 54363465
+}
