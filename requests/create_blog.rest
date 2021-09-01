@@ -2,8 +2,7 @@ POST http://localhost:3003/api/blogs
 Content-Type: application/json
 
 {
-  "title": "star wars",
+  "title": "star wars 2",
   "author": "georgie lucas",
-  "url": "starwars.com",
-  "likes": 54363465
+  "url": "starwars.com"
 }
