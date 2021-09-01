@@ -1,0 +1,9 @@
+PUT http://localhost:3003/api/blogs/612d00e8b9e1cd0dc01fa8cc
+Content-Type: application/json
+
+{
+  "title": "star wars 2",
+  "author": "georgie lucas",
+  "url": "starwars.com",
+  "likes": 11
+}
