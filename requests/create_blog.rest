@@ -1,8 +1,9 @@
 POST http://localhost:3003/api/blogs
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOiI2MTM3YTI5NGFiN2NmNTU4YTU5NTkzZTQiLCJpYXQiOjE2MzEwNDAwOTEsImV4cCI6MTYzMTA0MzY5MX0.b5HfC5n2EPJiGlfb5DxCMkUpR5obC87_sCOzTxmDpVo
 
 {
-  "title": "star wars 2",
-  "author": "georgie lucas",
-  "url": "starwars.com"
+  "title": "token authentication identifies creator of blog",
+  "author": "whatevers name",
+  "url": "defaulsadft.asdf"
 }
